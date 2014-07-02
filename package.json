@@ -1,7 +1,7 @@
 {
   "name": "freshrealm-oauth",
   "description": "FreshRealm OAuth 2.0 Client Plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "jquery-plugin"
   ],
