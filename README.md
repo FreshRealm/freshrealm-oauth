@@ -33,4 +33,4 @@ $(function() {
 Your redirectUri page will need to handle validating the OAuth access_token.
 Note that it will receive a GET query param of nopopup if the OAuth flow redirected instead of using a popup.
 Also, if the plugin used the popup flow, after validating the access_token in your redirectUri page you can redirecto to another page which then calls 
-\`$.freshRealmOAuth.popupHandler();`, which will then trigger your orignal page's `$.freshRealmOAuth().getToken()` callback function.
+`$.freshRealmOAuth.popupHandler();`, which will then trigger your orignal page's `$.freshRealmOAuth().getToken()` callback function.

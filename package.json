@@ -1,6 +1,7 @@
 {
   "name": "freshrealm-oauth",
   "description": "FreshRealm OAuth 2.0 Client Plugin",
+  "version": "0.1.0",
   "keywords": [
     "jquery-plugin"
   ],
@@ -8,11 +9,11 @@
   "author": {
     "name": "John Grogg",
     "email": "johng@freshrealm.co",
-    "url": "https://github.com/"
+    "url": ""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com//freshrealm-oauth.git"
+    "url": "https://github.com/FreshRealm/freshrealm-oauth.git"
   },
   "licenses": [
     {
