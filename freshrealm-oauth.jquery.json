@@ -1,0 +1,28 @@
+{
+  "name": "freshrealm-oauth",
+  "title": "FreshRealm OAuth 2.0 Client Plugin",
+  "description": "jQuery plugin to easily use the FreshRealm OAuth 2.0 service.",
+  "version": "1",
+  "homepage": "",
+  "author": {
+    "name": "John Grogg",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ]
+}
