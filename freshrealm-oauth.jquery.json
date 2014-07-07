@@ -2,7 +2,7 @@
   "name": "freshrealm-oauth",
   "title": "FreshRealm OAuth 2.0 Client Plugin",
   "description": "jQuery plugin to easily use the FreshRealm OAuth 2.0 service.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "",
   "author": {
     "name": "John Grogg",
