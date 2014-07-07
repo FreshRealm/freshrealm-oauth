@@ -103,6 +103,7 @@
 
         // TODO: binding occurs for each reauthentication, leading to leaks for long-running apps.
 
+        // window method used to handle popup return if possible (some browsers don't give visibility)
         window.frOauthListener = function (data) {
           if (data.access_token) {
             deferred.resolve(data);
@@ -111,6 +112,7 @@
           }
         };
 
+        // fallback event listener in case window.frOauthListener isn't available within the popup
         $(window).on('message', function(event) {
           if ((event.source === null || event.source === popup) && event.origin === window.location.origin) {
             if (event.data.access_token) {
@@ -149,6 +151,7 @@
     var queryString = window.location.search.substring(1);  // preceding ? omitted
     var params = parseKeyValue(queryString);
 
+    // Call window.opener.frOauthListener if possible, otherwise fallback to sending a 'message' event to the opener
     if (typeof window.opener.frOauthListener !== 'undefined') {
       try {
         window.opener.frOauthListener(params);
