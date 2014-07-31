@@ -1,8 +1,8 @@
 {
   "name": "freshrealm-oauth",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "dependencies": {
-    "jquery": "~2.1.1"
+    "jquery": "1.11.X"
   },
   "devDependencies": {
     "qunit": "~1.12.0"
