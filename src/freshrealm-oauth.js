@@ -100,7 +100,7 @@
         }
 
         var popup = window.open(url, popupOptions.name, formatPopupOptions(popupOptions.openParams));
-
+        popup.focus();
         // TODO: binding occurs for each reauthentication, leading to leaks for long-running apps.
 
         // window method used to handle popup return if possible (some browsers don't give visibility)
